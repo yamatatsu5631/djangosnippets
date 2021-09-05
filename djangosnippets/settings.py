@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'snippets.apps.SnippetsConfig',
     'django_bootstrap5',
     'pygments_renderer',
+    'accounts.apps.AccountsConfig',
 ]
 
 MIDDLEWARE = [
