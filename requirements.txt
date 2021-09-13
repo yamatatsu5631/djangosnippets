@@ -2,4 +2,3 @@ django
 whitenoise
 gunicorn
 django_bootstrap5
-pygments_renderer
