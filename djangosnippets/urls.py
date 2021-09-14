@@ -22,7 +22,7 @@ urlpatterns = [
     path('', top, name='top'),
     path('snippets/', include('snippets.urls')),
     path('admin/', admin.site.urls),
-    path("accunts/", include("accounts.urls")),
+    path("acconts/", include("accounts.urls")),
 ]
 
 LOGIN_URL = '/accounts/login/'
