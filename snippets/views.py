@@ -39,7 +39,7 @@ def snippet_edit(request, snippet_id):
         form = SnippetForm(instance=snippet)
     return render(request, 'snippets/snippet_edit.html', {'form': form})
     
-@login_required
+#@login_required
 def snippet_detail(request, snippet_id):
     snippet = get_object_or_404(Snippet, pk=snippet_id)
     comments = Comment.objects.filter(commented_to=snippet_id).all()
